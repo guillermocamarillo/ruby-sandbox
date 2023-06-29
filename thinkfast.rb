@@ -15,16 +15,15 @@ some_random_input = unpredictable_inputs.sample
 # write your program below
 
 
-t = :GOODBYE
-class_type = t.class
+class_type = some_random_input.class
 
 if class_type == String
 
   pp some_random_input.downcase
 
-elsif class_type == Date
+elsif class_type == Time
 
-  pp some_random_input.strftime("%A").downcase
+  pp t.strftime("%A").downcase
 
 elsif class_type == Integer
 

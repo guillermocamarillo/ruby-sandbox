@@ -1,5 +1,5 @@
 require "date"
 
-t =  :Goodbye
+t =  Time.now
 
-pp t.downcase
+pp t.class
