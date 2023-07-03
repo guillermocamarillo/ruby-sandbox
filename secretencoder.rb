@@ -15,12 +15,11 @@ pp vowelsArr
 
 secret = "I need to be more secret";
 
-secret = secret.downcase
 
-secret = secret.gsub(/a/, '1')
-secret = secret.gsub(/e/, '2') 
-secret = secret.gsub(/i/, '3')  
-secret = secret.gsub(/o/, '4') 
-secret = secret.gsub(/u/, '5') 
+secret = secret.gsub(/1/, 'a')
+secret = secret.gsub(/2/, 'e') 
+secret = secret.gsub(/3/, 'i')  
+secret = secret.gsub(/4/, 'o') 
+secret = secret.gsub(/5/, 'u') 
 
 pp secret
