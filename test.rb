@@ -1,5 +1,5 @@
 require "date"
 
-t =  Time.now
+returnVal = Integer("A")
 
-pp t.class
+pp returnVal.class
