@@ -15,7 +15,9 @@ some_random_input = unpredictable_inputs.sample
 # write your program below
 
 
-class_type = some_random_input.class
+
+t = Time.now
+class_type = t.class
 
 if class_type == String
 
